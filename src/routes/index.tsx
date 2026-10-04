@@ -18,21 +18,18 @@ import crew from "@/assets/dholkicrew.jpg";
 
 export const Route = createFileRoute("/")({
   ssr: false,
-   head: () => ({ meta: [
+    head: () => ({ meta: [
     { title: "Dholki Ki Raat, Yaadon Ke Saath | 90s Dholki Invitation" },
     { name: "description", content: "A colourful 90s Pakistani Dholki night filled with music, family, and joyful memories." },
     { property: "og:title", content: "Dholki Ki Raat, Yaadon Ke Saath" },
     { property: "og:description", content: "You’re invited to a colourful 90s Pakistani Dholki celebration." },
     { property: "og:type", content: "website" },
-    { property: "og:image", content: "/og-image.png" },
+    { property: "og:image", content: "https://fizza-dholki.netlify.app/og-image.png" },
     { property: "og:image:width", content: "1200" },
     { property: "og:image:height", content: "630" },
-    { property: "og:image", content: "https://fizza-dholki.netlify.app/og-image.jpg" },
-      { property: "og:image:width", content: "1200" },
-      { property: "og:image:height", content: "630" },
-      { property: "og:image:type", content: "image/jpeg" },
+    { property: "og:image:type", content: "image/png" },
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:image", content: "/og-image.png" },
+    { name: "twitter:image", content: "https://fizza-dholki.netlify.app/og-image.png" },
   ]}),
   component: Invitation,
 });
