@@ -213,7 +213,7 @@ function Invitation() {
       </section>
  
       <section className="note-scene scene" data-scene>
-        <div className="paper-note" data-gsap><div className="tape tape-one"/><div className="tape tape-two"/><span className="sticker">DHOLKI!</span><p className="urdu" dir="rtl">محبت سے بلایا ہے، ضرور آئیے گا!</p><h2>We would love to celebrate this special evening with you.</h2><strong>{DETAILS.bride} & {DETAILS.groom}</strong><div className="doodle">♫ ◌ ✿ ◌ ♫</div></div>
+        <div className="paper-note" data-gsap><div className="tape tape-one"/><div className="tape tape-two"/><span className="sticker">DHOLKI!</span><p className="urdu" dir="rtl">محبت سے بلایا ہے، ضرور آئیے گا!</p><h2>We would love to celebrate this special evening with you.</h2><div className="doodle">♫ ◌ ✿ ◌ ♫</div></div>
       </section>
  
       <section className="finale scene" data-scene>
