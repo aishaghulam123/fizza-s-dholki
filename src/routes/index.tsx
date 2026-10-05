@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 import tvRoom from "@/assets/dholki-tv-room.jpg";
 import celebration from "@/assets/dholki-celebration.jpg";
 import instruments from "@/assets/dhol-dafli.jpg";
-import batashe from "@/assets/album.jpg";
+import batashe from "@/assets/batashe-tray.jpg";
 import sisterA from "@/assets/sumbul.jpg";
 import sisterB from "@/assets/uroosa.jpeg";
 import sisterC from "@/assets/mehak.jpeg";
